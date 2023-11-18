@@ -1,8 +1,8 @@
-using Microsft.EntityFrame
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace ClincaRomullus.Models.Contexts
 {
-    public class ClinicaRomullusContext
+    public class ClinicaRomullusContext: DbContext
     {
         
     }
